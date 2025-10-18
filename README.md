@@ -13,8 +13,11 @@ A minimal ray tracer written in C. It renders 3D scenes with basic shapes, light
 
 Here are some example renders from `miniRT_42`:
 
+### Cylinders Example
 ![cylinder Render](preview/cyl.png)
+### Spheres Example
 ![sphere Render](preview/two_spheres.png)
+### Scene Example
 ![scene Render](preview/room.png)
 
 ## Getting Started
@@ -69,4 +72,4 @@ gcc -o miniRT main.c ... -lmlx -lm -framework OpenGL -framework AppKit
 
 ## Credits
 
-Developed by [nerovanity](https://github.com/nerovanity) [Essoufi-oussama](https://github.com/Essoufi-oussama) as part of the 42 School curriculum.
+Developed by [nerovanity](https://github.com/nerovanity) and [Essoufi-oussama](https://github.com/Essoufi-oussama) as part of the 42 School curriculum.
