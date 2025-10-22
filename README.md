@@ -65,14 +65,7 @@ gcc -o miniRT main.c ...-lX11 -lXext -lmlx -lm
 
 - Provide a `.rt` scene description file as an argument.
 - The window will open displaying the rendered scene.
-- Close the window to exit the program.
-
-## Project Structure
-
-- `main.c` – Entry point and program logic
-- `src/` – Source files for ray tracing, parsing, and rendering
-- `include/` – Header files
-- `scenes/` – Example `.rt` scene files
+- Close the window to exit the program or press esc.
 
 ## Credits
 
