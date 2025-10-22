@@ -45,10 +45,14 @@ make
 
 Or compile manually:
 
+macos:
 ```sh
 gcc -o miniRT main.c ... -lmlx -lm -framework OpenGL -framework AppKit
 ```
-
+linux:
+```sh
+gcc -o miniRT main.c ...-lX11 -lXext -lmlx -lm
+```
 > **Note**: Adjust the compiler flags and source files as needed for your system and project structure.
 
 ### Running
