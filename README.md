@@ -26,7 +26,7 @@ Here are some example renders from `miniRT_42`:
 
 - GCC or a compatible C compiler
 - [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx) library
-- Make (optional, for using provided Makefile)
+- Make
 
 ### Building
 
@@ -37,7 +37,7 @@ git clone https://github.com/nerovanity/miniRT_42.git
 cd miniRT_42
 ```
 
-Compile the project (assuming Makefile is provided):
+Compile the project :
 
 ```sh
 make
